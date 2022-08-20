@@ -26,6 +26,7 @@ const MainSection = styled.article`
     );
   }
 `;
+
 const MainTextWrap = styled.div`
   padding: 50px 0 0;
   display: flex;
@@ -35,28 +36,32 @@ const MainTextWrap = styled.div`
   line-height: normal;
   z-index: 1;
 `;
+
 const MainTitle = styled.strong`
   color: #fff;
   font-size: 3.125rem;
 `;
+
 const MainSubText = styled.p`
   color: #fff;
   font-size: 1.625rem;
 `;
+
 const MainText = styled.p`
   color: #fff;
   font-size: 1.2rem;
 `;
+
 const MailSubmit = styled.div`
   display: flex;
-  & input {
+  input {
     padding: 10px;
     width: calc(100% - 150px);
     height: 60px;
     color: #fff;
     font-size: 1rem;
   }
-  & button {
+  button {
     padding: 0 20px;
     display: flex;
     align-items: center;

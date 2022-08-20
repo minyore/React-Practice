@@ -6,6 +6,7 @@ const GnbList = styled.ul`
   align-items: center;
   justify-content: space-between;
 `;
+
 const Logo = styled.h1`
   & a {
     display: block;
@@ -14,11 +15,12 @@ const Logo = styled.h1`
     fill: #e50914;
   }
 `;
+
 const SideMenu = styled.div`
   display: flex;
   align-items: center;
   gap: 0 30px;
-  & select {
+  select {
     padding: 5px 10px;
     color: #fff;
     font-size: 1rem;
@@ -27,7 +29,7 @@ const SideMenu = styled.div`
     border: 1px solid #fff;
     border-radius: 3px;
   }
-  & button {
+  button {
     padding: 5px 15px;
     display: flex;
     align-items: center;
