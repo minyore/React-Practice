@@ -1,8 +1,14 @@
-import styled from "styled-components";
+import React from 'react';
+import ItemList from './products/ProductList';
 
-const ItemList = styled.li`
-  background: #eee;
-`;
+interface Color {
+  color: string;
+  value: string;
+}
+
+interface ListProps {
+  colors: Color[];
+}
 
 /**
  * [1, 2, 3].map(num => {
@@ -10,7 +16,7 @@ const ItemList = styled.li`
  * }) // [1, 2, 3];
  */
 
-const List = ({ colors }) => {
+const List = ({ colors }: ListProps) => {
   return (
     <>
       {colors.map((color, i) => {
@@ -23,4 +29,5 @@ const List = ({ colors }) => {
     </>
   );
 };
+
 export default List;

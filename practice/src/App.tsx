@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import Gnb from "./components/gnb/Gnb";
 import Container from "./components/Container";
-import ColorList from "./components/ColorList";
 
 function App() {
   return (
